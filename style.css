@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 129, 33);
+}
+
+.can {
+    background: red;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    width: 180px;
+    aspect-ratio: 2/3.25;
+    transition: .5s ease-in-out;
+    --left: -210px;
+
+    background: url(design.png) var(--left) 0, url(can.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+    mask-image: url(can.png);
+    mask-size: cover;
+}
+
+.can:hover {
+    top: 40px;
+    rotate: 10deg;
+    --left: 0px;
+}
