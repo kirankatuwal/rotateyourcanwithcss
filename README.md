@@ -74,8 +74,8 @@ This project demonstrates a creative **hover animation effect** using pure CSS. 
 
 ## 📸 Preview
 
-![Preview of the can hover animation](Screenshot 2025-05-20 192532.png)
-![Preview of the can hover animation](Screenshot 2025-05-20 192540.png)
+![Preview of the can hover animation](screenshot1.png)
+![Preview of the can hover animation](screenshot2.png)
 
 ---
 
